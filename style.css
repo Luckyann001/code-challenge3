@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #252523;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+aside {
+  width: 200px;
+  background: rgb(70, 134, 134);
+  padding: 10px;
+  border-radius: 6px;
+}
+
+#films li {
+  margin: 8px 0;
+  cursor: pointer;
+  padding: 5px;
+  background: #eee;
+  border-radius: 4px;
+}
+
+#films li:hover {
+  background: #863875;
+}
+
+main {
+  flex: 1;
+  background: rgb(179, 171, 60);
+  padding: 20px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+main img {
+  width: 250px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  background: green;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
